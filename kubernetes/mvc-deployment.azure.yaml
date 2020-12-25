@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: mvc
-        image: babukumarji/kumardemos0307/Products-Store:V2.$(Build.BuildId)#
+        image: babukumarji/kumardemos0307/products-store:v2.$(Build.BuildId)#
         # image: ACR_NAME/DOCKER_IMAGE:TAG
         # image: __ACR_NAME__.azurecr.io/__DOCKER_IMAGE__:__TAG__
         ports:
